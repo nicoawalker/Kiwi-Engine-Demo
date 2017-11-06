@@ -4,7 +4,6 @@
 #include "TerrainShader.h"
 #include "TextShader.h"
 #include "VoxelTerrain.h"
-#include "PlayerAvatar.h"
 #include "VillagerController.h"
 #include "Pathfinder.h"
 #include "CharacterController.h"

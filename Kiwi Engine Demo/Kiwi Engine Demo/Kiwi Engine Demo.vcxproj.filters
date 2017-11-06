@@ -42,12 +42,6 @@
     <ClCompile Include="TextShader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SmallHouse.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SmallHouseTypeA.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="VoxelChunk.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -162,12 +156,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TextShader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SmallHouse.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SmallHouseTypeA.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="VoxelChunk.h">
