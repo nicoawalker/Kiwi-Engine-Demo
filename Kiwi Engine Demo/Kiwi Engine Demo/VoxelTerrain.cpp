@@ -206,7 +206,7 @@ void VoxelTerrain::_GenerateAroundCenter()
 
 				VoxelChunk* newChunk = new VoxelChunk( *this, m_chunkDimensions );
 				newChunk->SetPosition( Kiwi::Vector3d( center.x + ((m_chunkDimensions.x * m_voxelSize) * (double)x),
-														center.y + ((m_chunkDimensions.y * m_voxelSize) * (double)y),
+													   center.y + (((m_chunkDimensions.y - m_voxelSize) * m_voxelSize) * (double)y),
 														center.z + ((m_chunkDimensions.z * m_voxelSize) * (double)z) ) );
 				m_chunks[y + rdy][x + rdx].push_back( newChunk );
 				numChunks++;
