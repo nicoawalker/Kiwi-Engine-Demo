@@ -16,5 +16,5 @@ C: Toggle between block-edit and combat modes
 Right-Mouse: Fire projectile (combat mode), or remove voxel (block-edit mode)
   
 ## Building the demo
-To build the demo, the Kiwi Engine static library and source files must be linked. The engine can be found [here](https://github.com/nicoawalker/Kiwi-Engine-2016 "Kiwi Engine 2016").  
-To do this in Visual Studio 2015, simply add the paths to the engine source and library in the solution's "VC++ Directories" property.  
+To build the demo, the static library and source files of Engine, as well as the DirectX 11 SDK, must be linked. The engine can be found [here](https://github.com/nicoawalker/Kiwi-Engine-2016 "Kiwi Engine 2016").  
+To do this in Visual Studio 2015, simply add the paths to the include and library directories in the solution's "VC++ Directories" property.  
